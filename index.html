@@ -1,82 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/0dedaccf39.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./style/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-</head>
+    <link rel="stylesheet" href="style/style.css" />
+    <!-- fonts awesome icon link -->
+    <script
+      src="https://kit.fontawesome.com/7675e13034.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+
+
+  <header id="TopHeader" class="horizontal">
+    <div id="brandLogo">
+      <img id="brandLogo" src="Image/Amike.png" height="50px" alt="portfolio logo">
+    </div>
+
+    <nav id="navbar">
+      <ul class="menu horizontal">
+        <li class="navItem"><a href="#home">Home</a></li>
+        <li class="navItem"><a href="#services">Services</a></li>
+        <li class="navItem"><a href="#about">About</a></li>
+        <li class="navItem"><a href="#skills">Skills</a></li>
+        <li class="navItem"><a href="#portfolio">Portfolio</a></li>
+        <li class="navItem"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
 <body>
-    <header id="header" class="horizontal"> 
-        <div id="brand"><img  id="brandlogo" src="./Image/Amike.png" alt="brandlogo"></div>
+    
+<main>
+      <!-- home section -->
+      <section id="home" class="horizontal">
+        <div id="letfcon">
+          <div id="socialIcons" class="horizontal">
+            <div class="icon"><i class="fa-brands fa-facebook-f"></i></div>
+            <div class="icon"><i class="fa-brands fa-x-twitter"></i></div>
+            <div class="icon"><i class="fa-brands fa-pinterest-p"></i></div>
+            <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+            <div class="icon"><i class="fa-brands fa-behance"></i></div>
+          </div>
+          <div id="text">
+            <h1 class="sectionTitle">I am Ayomide Oladimeji</h1>
+            <p class="sectionP">
+              I'm Ayomide, professional Software developer with long time experience
+              in frontend
+            </p>
+          </div>
+          <div id="actionBtn">
+            <button class="icon portfolioBtn">My Portfolio</button>
+            <button id="playBtn"><i class="fa-solid fa-play"></i></button>
+          </div>
+        </div>
 
-        <nav id="navbar">
-            <ul class="horizontal">      
-                    <li class="navitem"><a href="">Home</a></li>
-                    <li class="navitem"><a href="">Services</a></li>
-                    <li class="navitem"><a href="">About</a></li>
-                    <li class="navitem"><a href="">Skills</a></li>
-                    <li class="navitem"><a href="">Portfolio</a></li>
-                    <li class="navitem"><a href="">Blog</a></li>
-                    <li class="navitem"><a href="">Contact</a></li>
-                
-                </ul>  
-        </nav>
-    </header>
+        <div id="rightcon">
+          <div id="image"><img src="image/man-01.png" alt="" /></div>
+        </div>
+      </section>
 
-    <main>
-            <!-- home section  -->
-            <section id="home">
-            <div id="icons on the left">
-                <div id="social-icons">
-                    <div class="icon"><i class="fa-brands fa-facebook"></i></div>
-                    <div class="icon"><i class="fa-brands fa-instagram"></i></div>
-                    <div class="icon"></div>
-                    <div class="icon"></div>
-                    <div class="icon"></div>
-                </div>
+      <!-- services section -->
+      <section id="services">
+        <div id="servicetext">
+          <h4 id="smallservice">SERVICES</h4>
+          <h1 id="bigservice">My Services</h1>
 
-            </div>
-            <div id="introtext">
-                <h1>I am political Tech Developer, Proffessional</h1>
-            </div>
-            <div id="icons on the right">
-                <img src="./Image/whiteman.png" alt="whiteman">
-            </div>
+          <p class="paraservice">
+            I am building a portfolio strategy on football internationally and Nigeria only. Football works perfect once there is a team strategy through practises. Main aspect for my portfolio is to tell the outside world and city boys and girs, playing football that it isn't only about your individual tactics or talents, for example lionel messi can't play the whole field by himself without a team especially if you indulge in a team strategy definately a team would triumph. As a software web developer I Ayomide have find it easy and amazingly confident to strategise on football, basketball, volley ball internationally with an excellent outcome for the team
+            
+            Sports Rules its own region
+          </p>
+        </div>
 
-            <div id="<i class="fa-brands fa-facebook"></i>">
+        <div class="icon3" ><i class="fa-solid fa-minus"></i></div>
 
-            </div>
+        <div class="sixblocks">
+          <!-- leftupcont -->
+          <div class="cont">
+            <div class="icon2"><i class="fa-brands fa-github"></i></div> 
+            <h2 class="ch2"> Web Development for sport</h2>
+            <p class="cpara">
+              Sport , as we all know works for the world financially, helps the youth maintain financial stability for thier various lives
+            </p>
+          </div>
 
-          
+          <!-- leftdowncont -->
+          <div class="cont">
+            <div class="icon2"><i class="fa-solid fa-eye"></i></div> 
+            <h2 class="ch2">Photography</h2>
+            
+            <p class="cpara">
+              Photographs also implies a good options for football. catching various unique picture of the teams and individual tactic will make the manager or software tactician developer develop more skills .
+            </p>
+          </div>
 
-        </section>
+          <!-- middleupcont -->
+          <div class="cont">
+            <div class="icon2"><i class="fa-brands fa-apple"></i></div> 
+            <h2 class="ch2">Web Design</h2>
+            <p class="cpara">
+              You will be able to design your tactics on a web! very important
+            </p>
+          </div>
 
-        <!-- services section  -->
-        <section id="service"></section>
+          <!-- middledowncont -->
+          <div class="cont">
+            <div class="icon2"><i class="fa-solid fa-camera"></i></div> 
+            <h2 class="ch2">App Developing</h2>
+            <p class="cpara">
+              Developing an app for your teams to show your tactics to impliment them physically on the field. eyes can only see what it could,  unlike the web. football tactics mainted from the web is amazing
+            </p>
+          </div>
 
-        <!-- About section  -->
-        <section id="About"></section>
+          <!-- rightupcont -->
+          <div class="cont">
+            <div class="icon2"><i class="fa-solid fa-video"></i></div> 
+            <h2 class="ch2">Video Editing</h2>
+            <p class="cpara">
+              This is also a very important aspect. Videoing your teams will really show thier lapses, strength, speed , energy. this will help in a very great way to maintain your players including your software tactic on football
+            </p>
+          </div>
 
-        <!-- Skills section  -->
-        <section id="Skills"></section>
+          <!-- rightdowncont -->
+          <div class="cont">
+            <div class="icon2"><i class="fa-solid fa-video"></i></div> 
+            <h2 class="ch2"> SEO Expart</h2>
+            <p class="cpara">
+              Coming up soon
+            </p>
+          </div>
+        </div>
+      </section>
 
-        <!-- Portfolio section  -->
-        <section id="Portfolio"></section>
+      <!-- about section -->
+      <section id="about"></section>
 
-        <!-- Contact section  -->
-        <section id="Contact">
-            <h2>Contact Us</h2>
-            <form action=""> method=</form>
-            <input type="text"> placeholder="First name"
-            name="first name"
-        </section>
-        
-        <!-- Blog section  -->
-        <section id="Blog"></section>
+      <!-- skill section -->
+      <section id="skill"></section>
+
+      <!-- Portfolio section -->
+      <section id="portfolio"></section>
+
+      <!-- blog section  -->
+      <section id="blog"></section>
+
+      <!-- contact section -->
+      <section id="contact fonts ">
+        <h2>Contact Us</h2>
+        <form action="" method="">
+          <input type="text" placeholder="Ayomide Oladimeji" name="firstName" />
+          <br />
+          <br />
+          <input type="text" placeholder="ayomideoladimejidisu@gmail.com" name="email" />
+          <br />
+          <br />
+          <input type="text" placeholder="+234 9058964643" name="phone number" />
+          <br />
+          <br />
+          <input type="text" placeholder="08 09 2024" name="dob" />
+          <br />
+          <br />
+          <textarea
+            name="message"
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="I love you"
+          ></textarea>
+          <br />
+          <br />
+
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+      
     </main>
 
-    <footer></footer>
-</body>
+  </body>
+
+  <footer>
+    
+  </footer>
 </html>
